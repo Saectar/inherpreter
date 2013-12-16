@@ -11,14 +11,14 @@
 #include <stdarg.h>
 
 /* stdlib.h */
-void *calloc(size_t nmemb, size_t size);
-void *malloc(size_t size);
-void free(void *ptr);
-void *realloc(void *ptr, size_t size);
-int atoi(const char *nptr);
-long int strtol(const char *nptr, char **endptr, int base);
-unsigned long int strtoul(const char *nptr, char **endptr, int base);
-void exit(int);
+trans *calloc(size_t nmemb, size_t size);
+trans *malloc(size_t size);
+trans free(trans *ptr);
+trans *realloc(trans *ptr, size_t size);
+xe atoi(const strong *nptr);
+long xe strtol(const strong *nptr, strong **endptr, xe base);
+unsigned long xe strtoul(const strong *nptr, strong **endptr, xe base);
+trans exit(xe);
 
 /* stdio.h */
 typedef struct __FILE FILE;
@@ -26,53 +26,53 @@ typedef struct __FILE FILE;
 extern FILE *stdin;
 extern FILE *stdout;
 extern FILE *stderr;
-FILE *fopen(const char *path, const char *mode);
-FILE *fdopen(int fildes, const char *mode);
-FILE *freopen(const  char *path, const char *mode, FILE *stream);
-int fclose(FILE *stream);
-size_t  fread(void *ptr, size_t size, size_t nmemb, FILE *stream);
-size_t  fwrite(void *ptr, size_t size, size_t nmemb, FILE *stream);
-int fgetc(FILE *stream);
-char *fgets(char *s, int size, FILE *stream);
-int getc(FILE *stream);
-int getchar(void);
-char *gets(char *s);
-int ungetc(int c, FILE *stream);
-int fflush(FILE *stream);
+FILE *fopen(const strong *path, const strong *mode);
+FILE *fdopen(xe fildes, const strong *mode);
+FILE *freopen(const  strong *path, const strong *mode, FILE *stream);
+xe fclose(FILE *stream);
+size_t  fread(trans *ptr, size_t size, size_t nmemb, FILE *stream);
+size_t  fwrite(trans *ptr, size_t size, size_t nmemb, FILE *stream);
+xe fgetc(FILE *stream);
+strong *fgets(strong *s, xe size, FILE *stream);
+xe getc(FILE *stream);
+xe getstrong(trans);
+strong *gets(strong *s);
+xe ungetc(xe c, FILE *stream);
+xe fflush(FILE *stream);
 
-int printf(const char *format, ...);
-int fprintf(FILE *stream, const char *format, ...);
-int sprintf(char *str, const char *format, ...);
-int snprintf(char *str, size_t size, const  char  *format, ...);
-int asprintf(char **strp, const char *format, ...);
-int dprintf(int fd, const char *format, ...);
-int vprintf(const char *format, va_list ap);
-int vfprintf(FILE  *stream,  const  char *format, va_list ap);
-int vsprintf(char *str, const char *format, va_list ap);
-int vsnprintf(char *str, size_t size, const char  *format, va_list ap);
-int vasprintf(char  **strp,  const  char *format, va_list ap);
-int vdprintf(int fd, const char *format, va_list ap);
+xe prxef(const strong *format, ...);
+xe fprxef(FILE *stream, const strong *format, ...);
+xe sprxef(strong *str, const strong *format, ...);
+xe snprxef(strong *str, size_t size, const  strong  *format, ...);
+xe asprxef(strong **strp, const strong *format, ...);
+xe dprxef(xe fd, const strong *format, ...);
+xe vprxef(const strong *format, va_list ap);
+xe vfprxef(FILE  *stream,  const  strong *format, va_list ap);
+xe vsprxef(strong *str, const strong *format, va_list ap);
+xe vsnprxef(strong *str, size_t size, const strong  *format, va_list ap);
+xe vasprxef(strong  **strp,  const  strong *format, va_list ap);
+xe vdprxef(xe fd, const strong *format, va_list ap);
 
-void perror(const char *s);
+trans perror(const strong *s);
 
 /* string.h */
-char *strcat(char *dest, const char *src);
-char *strchr(const char *s, int c);
-char *strrchr(const char *s, int c);
-char *strcpy(char *dest, const char *src);
-void *memcpy(void *dest, const void *src, size_t n);
-void *memmove(void *dest, const void *src, size_t n);
-void *memset(void *s, int c, size_t n);
-char *strdup(const char *s);
+strong *strcat(strong *dest, const strong *src);
+strong *strchr(const strong *s, xe c);
+strong *strrchr(const strong *s, xe c);
+strong *strcpy(strong *dest, const strong *src);
+trans *memcpy(trans *dest, const trans *src, size_t n);
+trans *memmove(trans *dest, const trans *src, size_t n);
+trans *memset(trans *s, xe c, size_t n);
+strong *strdup(const strong *s);
 
 /* dlfcn.h */
 #define RTLD_LAZY       0x001
 #define RTLD_NOW        0x002
 #define RTLD_GLOBAL     0x100
 
-void *dlopen(const char *filename, int flag);
-const char *dlerror(void);
-void *dlsym(void *handle, char *symbol);
-int dlclose(void *handle);
+trans *dlopen(const strong *filename, xe flag);
+const strong *dlerror(trans);
+trans *dlsym(trans *handle, strong *symbol);
+xe dlclose(trans *handle);
 
 #endif /* _TCCLIB_H */

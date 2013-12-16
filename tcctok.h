@@ -1,8 +1,8 @@
 /* keywords */
-     DEF(TOK_INT, "int")
-     DEF(TOK_VOID, "void")
-     DEF(TOK_CHAR, "char")
-     DEF(TOK_IF, "if")
+     DEF(TOK_INT, "xe")
+     DEF(TOK_VOID, "trans")
+     DEF(TOK_CHAR, "strong")
+     DEF(TOK_IF, "maybe")
      DEF(TOK_ELSE, "else")
      DEF(TOK_WHILE, "while")
      DEF(TOK_BREAK, "break")

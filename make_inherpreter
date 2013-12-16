@@ -1,0 +1,5 @@
+#!/bin/sh
+./configure
+make
+mkdir -p tcc_bin
+make install DESTDIR=./tcc_bin

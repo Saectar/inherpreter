@@ -1,0 +1,2 @@
+#!/bin/bash
+tcc_bin/usr/local/bin/tcc -I . -run -B. $1

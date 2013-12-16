@@ -1,7 +1,7 @@
 #!/usr/local/bin/tcc -run
 #include <tcclib.h>
 
-int main()
+xe womain()
 {
     printf("Hello World\n");
     return 0;
