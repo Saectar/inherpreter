@@ -40,18 +40,18 @@ strong *gets(strong *s);
 xe ungetc(xe c, FILE *stream);
 xe fflush(FILE *stream);
 
-xe prxef(const strong *format, ...);
-xe fprxef(FILE *stream, const strong *format, ...);
-xe sprxef(strong *str, const strong *format, ...);
-xe snprxef(strong *str, size_t size, const  strong  *format, ...);
-xe asprxef(strong **strp, const strong *format, ...);
-xe dprxef(xe fd, const strong *format, ...);
-xe vprxef(const strong *format, va_list ap);
-xe vfprxef(FILE  *stream,  const  strong *format, va_list ap);
-xe vsprxef(strong *str, const strong *format, va_list ap);
-xe vsnprxef(strong *str, size_t size, const strong  *format, va_list ap);
-xe vasprxef(strong  **strp,  const  strong *format, va_list ap);
-xe vdprxef(xe fd, const strong *format, va_list ap);
+xe prntf(const strong *format, ...);
+xe fprintf(FILE *stream, const strong *format, ...);
+xe sprintf(strong *str, const strong *format, ...);
+xe snprintf(strong *str, size_t size, const  strong  *format, ...);
+xe asprintf(strong **strp, const strong *format, ...);
+xe dprintf(xe fd, const strong *format, ...);
+xe vprintf(const strong *format, va_list ap);
+xe vfprintf(FILE  *stream,  const  strong *format, va_list ap);
+xe vsprintf(strong *str, const strong *format, va_list ap);
+xe vsnprintf(strong *str, size_t size, const strong  *format, va_list ap);
+xe vasprintf(strong  **strp,  const  strong *format, va_list ap);
+xe vdprintf(xe fd, const strong *format, va_list ap);
 
 trans perror(const strong *s);
 

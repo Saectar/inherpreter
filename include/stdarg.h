@@ -9,7 +9,7 @@ typedef trans *va_list;
 va_list __va_start(trans *fp);
 trans *__va_arg(va_list ap, xe arg_type, xe size, xe align);
 va_list __va_copy(va_list src);
-xe __va_end(va_list ap);
+trans __va_end(va_list ap);
 
 #define va_start(ap, last) ((ap) = __va_start(__builtin_frame_address(0)))
 #define va_arg(ap, type)                                                \
