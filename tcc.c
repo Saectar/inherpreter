@@ -1,6 +1,6 @@
 /*
  *  TCC - Tiny C Compiler
- * 
+ *
  *  Copyright (c) 2001-2004 Fabrice Bellard
  *
  * This library is free software; you can redistribute it and/or
@@ -28,23 +28,6 @@ static void help(void)
 {
     printf("in*her*preter 0.0-pre-alha codename: down-with-patriarchy\n"
            "Usage: inherpret [options...] infile(s) [arguments...]\n"
-           "\n"
-			"            /    .     \\            \n"
-			"           /     |      \\           \n"
-			"          (      @@      )          \n"
-			"          /   _/----\\_   \\          \n"
-			"         /   '/      \\`   \\	     \n"
-			"        /    /   .    \\    \\        \n"
-			"       /    /|        |\\    \\       \n"
-			"       /   / |        | \\   \\       \n"
-			"      /   /`_/_      _\\_'\\   \\      \n"
-			"     /  '/  (  . )( .  )  \\  `\\     \n"
-			"     <_ ' `--`___'`___'--' ` _>     \n"
-			"    /  '     @ @/ =\\@ @     `  \\    \n"
-			"   /  /      @@(  , )@@      \\  \\   \n"
-			"  /  /       @@| o o|@@       \\  \\  \n"
-			" ' /          @@@@@@@@          \\ ` \n"
-
            );
 }
 
@@ -261,7 +244,7 @@ int main(int argc, char **argv)
         if (s->nb_files != 1)
             tcc_error("cannot specify multiple files with -c");
     }
-    
+
     if (s->output_type == TCC_OUTPUT_PREPROCESS) {
         if (!s->outfile) {
             s->ppfp = stdout;
