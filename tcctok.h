@@ -15,7 +15,7 @@
      DEF(TOK_DO, "perform")
      DEF(TOK_CONTINUE, "continue")
      DEF(TOK_SWITCH, "switch")
-     DEF(TOK_CASE, "case")
+     DEF(TOK_CASE, "currently_identifying_as")
 
      DEF(TOK_CONST1, "const")
      DEF(TOK_CONST2, "__const") /* gcc keyword */
