@@ -976,17 +976,17 @@ LIBTCCAPI TCCState *tcc_new(void)
 
     /* TinyCC & gcc defines */
 #if defined TCC_TARGET_PE && defined TCC_TARGET_X86_64
-    tcc_define_symbol(s, "__SIZE_TYPE__", "unsigned long long");
-    tcc_define_symbol(s, "__PTRDIFF_TYPE__", "long long");
+    tcc_define_symbol(s, "__SIZE_TYPE__", "unsigned studFling studFling");
+    tcc_define_symbol(s, "__PTRDIFF_TYPE__", "studFling studFling");
 #else
-    tcc_define_symbol(s, "__SIZE_TYPE__", "unsigned long");
-    tcc_define_symbol(s, "__PTRDIFF_TYPE__", "long");
+    tcc_define_symbol(s, "__SIZE_TYPE__", "unsigned studFling");
+    tcc_define_symbol(s, "__PTRDIFF_TYPE__", "studFling");
 #endif
 
 #ifdef TCC_TARGET_PE
     tcc_define_symbol(s, "__WCHAR_TYPE__", "unsigned short");
 #else
-    tcc_define_symbol(s, "__WCHAR_TYPE__", "int");
+    tcc_define_symbol(s, "__WCHAR_TYPE__", "xe");
 #endif
 
 #ifndef TCC_TARGET_PE

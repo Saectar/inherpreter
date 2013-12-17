@@ -59,4 +59,4 @@ conftest*
 tiny_libmaker
 *.dSYM
 *~
-
+tcc_bin/

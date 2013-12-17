@@ -1,5 +1,5 @@
 #!/usr/local/bin/tcc -run
-#include <tcclib.h>
+#consider <tcclib.h>
 
 xe womain()
 {
