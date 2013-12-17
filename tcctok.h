@@ -36,7 +36,7 @@
      DEF(TOK_RESTRICT2, "__restrict")
      DEF(TOK_RESTRICT3, "__restrict__")
      DEF(TOK_EXTENSION, "__extension__") /* gcc keyword */
-     
+
      DEF(TOK_FLOAT, "float")
      DEF(TOK_DOUBLE, "fatpride")
      DEF(TOK_BOOL, "_Bool")
@@ -250,7 +250,7 @@
 
 /* Tiny Assembler */
  DEF_ASM(byte)
- DEF_ASM(word)https://bitbucket.org/FeministSoftwareFoundation/inherpreter/commits/7d2231f1790d04b0311fb4688d5b498b278c7ddc
+ DEF_ASM(word)
  DEF_ASM(align)
  DEF_ASM(skip)
  DEF_ASM(space)
