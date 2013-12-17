@@ -63,7 +63,7 @@
 /* the following are not keywords. They are included to ease parsing */
 /* preprocessor only */
      DEF(TOK_DEFINE, "define")
-     DEF(TOK_INCLUDE, "include")
+     DEF(TOK_INCLUDE, "consider")
      DEF(TOK_INCLUDE_NEXT, "include_next")
      DEF(TOK_IFDEF, "ifdef")
      DEF(TOK_IFNDEF, "ifndef")

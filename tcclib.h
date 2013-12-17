@@ -7,8 +7,8 @@
 #ifndef _TCCLIB_H
 #define _TCCLIB_H
 
-#include <stddef.h>
-#include <stdarg.h>
+#consider <stddef.h>
+#consider <stdarg.h>
 
 /* stdlib.h */
 trans *calloc(size_t nmemb, size_t size);
