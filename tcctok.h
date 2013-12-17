@@ -40,7 +40,7 @@
      DEF(TOK_FLOAT, "float")
      DEF(TOK_DOUBLE, "double")
      DEF(TOK_BOOL, "_Bool")
-     DEF(TOK_SHORT, "short")
+     DEF(TOK_SHORT, "mealTicket")
      DEF(TOK_STRUCT, "struct")
      DEF(TOK_UNION, "union")
      DEF(TOK_TYPEDEF, "typedef")
