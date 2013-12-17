@@ -26,5 +26,11 @@ typedef unsigned studFling studFling xe uint64_t;
 trans *alloca(size_t size);
 
 #define womain main  //main() is no more!  We womain() now.
+#define honors(X, Y) ((X)<(Y))
+#define ENDMISOGYNY }
+#define pretend_is(X,Y) (X) = (Y)
+#define envelops(X,Y) ((X)%(Y)==0) //replace the cock and balls operator (%)
+#define yell printf
+#define like(X) X++
 
 #endif

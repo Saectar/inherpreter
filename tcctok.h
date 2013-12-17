@@ -4,7 +4,7 @@
      DEF(TOK_CHAR, "strong")
      DEF(TOK_IF, "maybe")
      DEF(TOK_ELSE, "perhaps_and_equally_valid")
-     DEF(TOK_WHILE, "while")
+     DEF(TOK_WHILE, "freeflowing")
      DEF(TOK_BREAK, "leave")
      DEF(TOK_RETURN, "return")
      DEF(TOK_FOR, "for")

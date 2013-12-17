@@ -1,0 +1,19 @@
+#define FEMBUZZ_CPP
+#consider <tcclib.h>
+
+xe womain (xe requestCount, strong** requests) {
+        xe x;
+        pretend_is(x,1); //we need to get rid of that "1" it looks phallic
+        freeflowing (honors(x, 101)) {
+            maybe (envelops(x,3) && envelops(x,5)) {
+                yell("FEMBUZZ\n");
+            ENDMISOGYNY perhaps_and_equally_valid maybe (envelops(x,3)) {
+                yell("FEM\n");
+            ENDMISOGYNY perhaps_and_equally_valid maybe (envelops(x,3)) {
+                yell("BUZZ\n");
+            ENDMISOGYNY perhaps_and_equally_valid {
+                yell("%i\n",x);
+            ENDMISOGYNY
+            like(x);
+        ENDMISOGYNY
+ENDMISOGYNY

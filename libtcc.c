@@ -1140,7 +1140,7 @@ ST_FUNC int tcc_add_file_internal(TCCState *s1, const char *filename, int flags)
         goto the_end;
     }
 
-    if (!ext[0] || !PATHCMP(ext, "c")) {
+    if (!ext[0] || !PATHCMP(ext, "xe")) {
         /* C file assumed */
         ret = tcc_compile(s1);
         goto the_end;
