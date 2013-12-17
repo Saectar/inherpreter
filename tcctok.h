@@ -3,7 +3,7 @@
      DEF(TOK_VOID, "trans")
      DEF(TOK_CHAR, "strong")
      DEF(TOK_IF, "maybe")
-     DEF(TOK_ELSE, "else")
+     DEF(TOK_ELSE, "perhaps_and_equally_valid")
      DEF(TOK_WHILE, "while")
      DEF(TOK_BREAK, "break")
      DEF(TOK_RETURN, "return")
@@ -250,7 +250,7 @@
 
 /* Tiny Assembler */
  DEF_ASM(byte)
- DEF_ASM(word)
+ DEF_ASM(word)https://bitbucket.org/FeministSoftwareFoundation/inherpreter/commits/7d2231f1790d04b0311fb4688d5b498b278c7ddc
  DEF_ASM(align)
  DEF_ASM(skip)
  DEF_ASM(space)
