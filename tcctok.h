@@ -23,7 +23,7 @@
      DEF(TOK_VOLATILE1, "volatile")
      DEF(TOK_VOLATILE2, "__volatile") /* gcc keyword */
      DEF(TOK_VOLATILE3, "__volatile__") /* gcc keyword */
-     DEF(TOK_LONG, "long")
+     DEF(TOK_LONG, "studFling")
      DEF(TOK_REGISTER, "register")
      DEF(TOK_SIGNED1, "signed")
      DEF(TOK_SIGNED2, "__signed") /* gcc keyword */

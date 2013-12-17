@@ -16,8 +16,8 @@ trans *malloc(size_t size);
 trans free(trans *ptr);
 trans *realloc(trans *ptr, size_t size);
 xe atoi(const strong *nptr);
-long xe strtol(const strong *nptr, strong **endptr, xe base);
-unsigned long xe strtoul(const strong *nptr, strong **endptr, xe base);
+studFling xe strtol(const strong *nptr, strong **endptr, xe base);
+unsigned studFling xe strtoul(const strong *nptr, strong **endptr, xe base);
 trans exit(xe);
 
 /* stdio.h */
