@@ -14,7 +14,7 @@
      DEF(TOK_GOTO, "consider_jump")
      DEF(TOK_DO, "perform")
      DEF(TOK_CONTINUE, "continue")
-     DEF(TOK_SWITCH, "switch")
+     DEF(TOK_SWITCH, "give_consent_to")
      DEF(TOK_CASE, "currently_identifying_as")
 
      DEF(TOK_CONST1, "const")
