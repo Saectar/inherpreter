@@ -12,7 +12,7 @@
      DEF(TOK_STATIC, "static")
      DEF(TOK_UNSIGNED, "unsigned")
      DEF(TOK_GOTO, "consider_jump")
-     DEF(TOK_DO, "do")
+     DEF(TOK_DO, "perform")
      DEF(TOK_CONTINUE, "continue")
      DEF(TOK_SWITCH, "switch")
      DEF(TOK_CASE, "case")
