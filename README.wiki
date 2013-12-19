@@ -1,0 +1,20 @@
+http://i.imgur.com/ZhTU8r3.png
+
+http://i.imgur.com/kMij1At.png
+
+= inHERpreter =
+
+The Next Generation of Interpreters: the [http://feministsoftwarefoundation.org/ Feminist Software Foundation] proudly presents: the inHERpreter 2.0 for [https://code.google.com/p/c-plus-equality/ the world's first feminist programming language, C+=], based on the excellent [http://bellard.org/tcc/ TCC]!
+
+= Preliminary instructions =
+
+{{{
+<pinq> we got a prealpha inherpreter: https://code.google.com/p/inherpreter/
+<pinq> this commit should tell you all you need to know: https://code.google.com/p/inherpreter/source/detail?r=7d2231f1790d04b0311fb4688d5b498b278c7ddc
+<pinq> build: ./build_inherpreter
+<pinq> then run ./inherpret examples/ex1.c
+<pinq> then you can patch the keywords in tcctok.h, but you need to modify everything in include/* too because we actually CHANGED the keywords
+}}}
+
+*Now get to work you lazy ass bastards!*
+
